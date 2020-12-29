@@ -147,7 +147,7 @@ Naming Conventions in Python Identifiers--
 ================================================================================================================================================
 
 
-According to Python 3.3 There are 33 Reserved  Keywords in Python
+According to Python 3.3 There are 35 Reserved  Keywords in Python
 
 
 
@@ -167,10 +167,10 @@ as		elif		if		or		yield
 
 
 
-assert		else		import		pass	 
+assert		else		import		pass	       await
 
 
-break		except		in		raise
+break		except		in		raise          async
 
 
 
@@ -178,9 +178,8 @@ Note-- You can find the list of keyword in Your Python Prompt
 
 >>> import keyword
 >>> print(keyword.kwlist)
-[
-'False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield'
-]
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
 
 
 
